@@ -171,3 +171,114 @@ nav a {
     .hero img { max-width: 350px; margin: 0 auto; }
     nav a { margin: 0 15px; font-size: 1.1rem; }
 }
+
+.moodhero {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    text-align: left;
+}
+ 
+.moodhero h1 {
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+ 
+.moodhero img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    background: #dcdcdc;
+    margin-bottom: 20px;
+    display: block;
+}
+ 
+.moodhero button {
+    padding: 12px 28px;
+    margin: 8px 10px 0 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    background: #e5e5e5;
+    font-weight: bold;
+    color: #333;
+    transition: 0.3s;
+    cursor: pointer;
+}
+ 
+.moodhero button:hover {
+    background: #7E52A0;
+    color: white;
+}
+ 
+.artist.spotlight {
+    max-width: 900px;
+    margin: 0 auto 60px auto;
+    display: flex;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+ 
+.artist.spotlight img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+ 
+.artist.spotlight h2:first-of-type {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.artist.spotlight h2:last-of-type {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+ 
+.artist.spotlight p {
+    margin-bottom: 20px;
+    color: #555;
+}
+ 
+.artist.spotlight button {
+    padding: 10px 25px;
+    background: #7E52A0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ 
+.blog {
+    max-width: 900px;
+    margin: 0 auto 80px auto;
+}
+ 
+.blog h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+ 
+.blog #community-box,
+.blog #community\ box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+ 
+.blog p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
